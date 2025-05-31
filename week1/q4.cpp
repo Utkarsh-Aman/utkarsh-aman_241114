@@ -1,5 +1,3 @@
-//some test cases do not pass
-
 #include <bits/stdc++.h>
 using namespace std;
 
