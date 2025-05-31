@@ -10,7 +10,7 @@ void canarrange(vector<pair<int,bool>> a,int n){
     // }
     bool is=true;
     for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n-i; j++){
+        for (int j = 0; j < n-i-1; j++){
             if (a[j].first > a[j+1].first) {
                 swap(a[j], a[j+1]);
                 a[j].second = !a[j].second;
